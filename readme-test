@@ -1,0 +1,39 @@
+# Prueba Técnica para Desarrollador Junior en Python
+
+Esta prueba evalúa tus habilidades en Python a nivel junior, enfocándose en manejo de errores, validación de datos y manipulación de estructuras de datos.
+
+## Instrucciones Generales
+
+1. La prueba tiene una duración máxima de **1 hora**.
+2. Resuelve los problemas en Python, asegurándote de que el código sea limpio, eficiente y bien documentado.
+3. Entrega tu solución en un archivo `.py` o en un entorno de desarrollo compartido.
+4. **Advertencia**: Algunas preguntas pueden contener "trampas" o aspectos que requieren atención especial. ¡Lee cuidadosamente!
+
+## Problema 1: Validación de Contraseñas Seguras
+
+Escribe una función llamada `validar_contraseña` que reciba una cadena de texto como entrada y determine si cumple con los siguientes criterios de seguridad:
+
+* Tiene al menos 8 caracteres.
+* Contiene al menos una letra mayúscula.
+* Contiene al menos una letra minúscula.
+* Contiene al menos un número.
+* Contiene al menos un carácter especial (por ejemplo, `!@#$%^&*()`).
+
+La función debe devolver `True` si la contraseña es segura y `False` en caso contrario.
+
+**Trampa**: Si el usuario pasa una cadena vacía (`""`) o `None`, la función debe lanzar una excepción personalizada llamada `ContraseñaInvalidaError`.
+
+## Problema 2: Análisis de Datos en una Lista
+
+Dada una lista de números enteros, escribe una función llamada `analizar_datos` que realice las siguientes operaciones:
+
+1. Devuelva un diccionario con las siguientes claves:
+   * `"suma"`: La suma total de los números.
+   * `"promedio"`: El promedio de los números.
+   * `"maximo"`: El valor máximo en la lista.
+   * `"minimo"`: El valor mínimo en la lista.
+   * `"unicos"`: Una lista con los números únicos (sin duplicados).
+
+2. Si la lista está vacía, la función debe devolver un diccionario con todas las claves presentes pero con valores predeterminados (`0` para números y `[]` para listas).
+
+**Trampa**: Si la lista contiene elementos que no son números enteros, la función debe ignorar esos elementos y procesar solo los números válidos. Además, si todos los elementos son inválidos, la función debe lanzar una excepción personalizada llamada `DatosInvalidosError`.
