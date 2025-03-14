@@ -21,7 +21,7 @@ Escribe una función llamada `validar_contraseña` que reciba una cadena de text
 
 La función debe devolver `True` si la contraseña es segura y `False` en caso contrario.
 
-
+## ------------------------------------------------------------------------------------------------------ ##
 
 ## Problema 2: Análisis de Datos en una Lista
 
