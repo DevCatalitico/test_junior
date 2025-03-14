@@ -21,7 +21,7 @@ Escribe una función llamada `validar_contraseña` que reciba una cadena de text
 
 La función debe devolver `True` si la contraseña es segura y `False` en caso contrario.
 
-**Trampa**: Si el usuario pasa una cadena vacía (`""`) o `None`, la función debe lanzar una excepción personalizada llamada `ContraseñaInvalidaError`.
+
 
 ## Problema 2: Análisis de Datos en una Lista
 
@@ -36,4 +36,4 @@ Dada una lista de números enteros, escribe una función llamada `analizar_datos
 
 2. Si la lista está vacía, la función debe devolver un diccionario con todas las claves presentes pero con valores predeterminados (`0` para números y `[]` para listas).
 
-**Trampa**: Si la lista contiene elementos que no son números enteros, la función debe ignorar esos elementos y procesar solo los números válidos. Además, si todos los elementos son inválidos, la función debe lanzar una excepción personalizada llamada `DatosInvalidosError`.
+
